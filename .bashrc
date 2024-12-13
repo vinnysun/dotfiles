@@ -142,3 +142,6 @@ function rebuild() {
   cmake --build ../build --target "$@" -- -j4
 }
 
+export VISUAL=vim
+export EDITOR=vim
+
